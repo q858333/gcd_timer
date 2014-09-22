@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+{
+    dispatch_source_t _timer;
+    int _sum;
+}
 
 @end
 
